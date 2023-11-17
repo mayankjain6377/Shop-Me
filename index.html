@@ -36,7 +36,7 @@
                     <option value="fashion">Fashion</option>
                 </select>
                 <input class="searchme" placeholder="Search Me">
-                <div class="search-icon">
+                <div class="search-icon" id="search1">
                     <i class="fa-solid fa-magnifying-glass"></i>
 
                 </div>
@@ -56,17 +56,17 @@
         </div>
         <!-- make a panel -->
         <div class="panel">
-            <div>
+            <!-- <div>
                 <i class="fa-solid fa-bars"></i>All
-            </div>
+            </div> -->
             <div class="option">
-                <p class="a1 border   ">Today's Deals</p>
-                <p class="a2 border">Customer Services</p>
+                <p class="a1 border   "><i class="fa-solid fa-house"></i> <a style="color: white; text-decoration: none;" href="#search1">Home</a></p>
+                <p class="a2 border"><a style="color: white; text-decoration: none;" href="#shop1">Shop</a></p>
                 <p class="a3 border">Registery</p>
                 <p class="a4 border">Gift cards</p>
                 <p class="a5 border">Sell</p>
             </div>
-            <div class="deals">Shop Deals in Electronics</div>
+            <div class="deals"><i class="fa-solid fa-bars"></i>  All</div>
         </div>
     </header>
 </head>
@@ -79,7 +79,7 @@
     </div>
 </section>
 <body>
-    <section class="shop">
+    <section class="shop" id="shop1">
         <!-- now create shop -->
         <div class="box1 box">
             <div class="box-content">
